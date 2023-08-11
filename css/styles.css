@@ -11,7 +11,7 @@
 }
 
 :root {
-  --orange: #f75353;
+  --orange: 	#ff783e;
   --blue: #00285f;
   --gray: #ededed;
 }
@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00285f83;
+  color: #ffff;
 }
 
 nav ul button {
@@ -222,6 +222,18 @@ section .card-item {
   color: #00000070;
 }
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1px;
+}
+
+.ano-km {
+  border: 1px dashed gray;
+  width: 153px;
+  display: flex;
+}
+
 .card-item button {
   width: 90%;
   padding: 15px 0px;
@@ -271,8 +283,11 @@ section .card-item {
   width: 25%;
   min-width: 300px;
   height: 100%;
-  background: #000000a1;
+  background: black;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .right {
@@ -286,7 +301,7 @@ section .card-item {
 }
 
 .right h3 {
-  text-align: right;
+  text-align: left;
   width: 90%;
   margin-bottom: 20px;
 }
@@ -295,7 +310,7 @@ section .card-item {
   max-width: 90%;
   font-size: 1em;
   letter-spacing: 2px;
-  text-align: right;
+  text-align: left;
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -378,6 +393,10 @@ footer .main {
   color: white;
   height: 100%;
   min-height: 100px;
+}
+
+.social-icons {
+  text-align: center;
 }
 
 .footer-links h4 {
